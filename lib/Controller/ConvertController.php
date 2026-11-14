@@ -38,7 +38,7 @@ class ConvertController extends Controller {
             $fileName = $file->getName();
 
             // Step 1: Create job
-            $ch = curl_init('https://api.cloudconvert_nc_app.com/v2/jobs');
+            $ch = curl_init('https://api.cloudconvert.com/v2/jobs');
             curl_setopt_array($ch, [
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_POST           => true,
@@ -104,7 +104,7 @@ class ConvertController extends Controller {
             while ($waited < 90) {
                 sleep(3);
                 $waited += 3;
-                $ch = curl_init('https://api.cloudconvert_nc_app.com/v2/jobs/' . $jobId);
+                $ch = curl_init('https://api.cloudconvert.com/v2/jobs/' . $jobId);
                 curl_setopt_array($ch, [
                     CURLOPT_RETURNTRANSFER => true,
                     CURLOPT_HTTPHEADER     => ['Authorization: Bearer ' . $apiKey],

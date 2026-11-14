@@ -16,15 +16,15 @@ Features:
 - Converted file is automatically saved to the same folder as the original
 
 Requirements:
-- A CloudConvert API key (https://cloudconvert_nc_app.com/dashboard)
+- A CloudConvert API key (https://cloudconvert.com/dashboard)
 - PHP curl extension enabled on the server
     ]]></description>
     <version>1.0.0</version>
-    <licence>agpl</licence>
-    <author mail="schuyler@reidellawfirm.com" homepage="https://github.com/Reidel-Law-Firm">Schuyler &apos;Rocky&apos; Reidel</author>
+    <licence>GPL-3.0-or-later</licence>
+    <author mail="schuyler@reidellawfirm.com">Schuyler "Rocky" Reidel, Reidel Law Firm</author>
     <namespace>CcConvert</namespace>
     <category>files</category>
-    <website>https://github.com/Reidel-Law-Firm/cloudconvert_nc_app</website>
+    <website>https://github.com/Reidel-Law-Firm/cloudconvert-nc-app</website>
     <bugs>https://github.com/Reidel-Law-Firm/cloudconvert-nc-app/issues</bugs>
     <repository type="git">https://github.com/Reidel-Law-Firm/cloudconvert-nc-app</repository>
     <dependencies>

@@ -104,11 +104,11 @@ const App = {
                 h('p', { style: 'margin:8px 0 20px 0; color:#6b7280; font-size:13.5px; line-height:1.5;' }, [
                     'Enter your CloudConvert API key to enable file conversion. Get one from ',
                     h('a', {
-                        href: 'https://cloudconvert_nc_app.com/dashboard/api/v2/keys',
+                        href: 'https://cloudconvert.com/dashboard/api/v2/keys',
                         target: '_blank',
                         rel: 'noopener noreferrer',
                         style: 'color:#0082c9; text-decoration:none; font-weight:500;',
-                    }, 'cloudconvert_nc_app.com/dashboard'),
+                    }, 'cloudconvert.com/dashboard'),
                     '.',
                 ]),
 
