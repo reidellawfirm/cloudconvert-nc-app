@@ -1,6 +1,10 @@
 # Changelog
 
 
+## 1.0.3
+- Nextcloud App Store listing refreshed.
+- Screenshots added for the Nextcloud App Store listing.
+
 ## 1.0.2
 - Fixed API key settings requests using the former app ID, which caused HTTP 404 on load and save.
 

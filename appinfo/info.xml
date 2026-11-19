@@ -19,7 +19,7 @@ Requirements:
 - A CloudConvert API key (https://cloudconvert.com/dashboard)
 - PHP curl extension enabled on the server
     ]]></description>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <licence>GPL-3.0-or-later</licence>
     <author mail="schuyler@reidellawfirm.com">Schuyler "Rocky" Reidel, Reidel Law Firm</author>
     <namespace>CcConvert</namespace>
@@ -27,6 +27,10 @@ Requirements:
     <website>https://github.com/reidellawfirm/cloudconvert-nc-app</website>
     <bugs>https://github.com/reidellawfirm/cloudconvert-nc-app/issues</bugs>
     <repository type="git">https://github.com/reidellawfirm/cloudconvert-nc-app</repository>
+    <screenshot small-thumbnail="https://raw.githubusercontent.com/reidellawfirm/cloudconvert-nc-app/v1.0.3/screenshots/01-file-actions-menu-small.png">https://raw.githubusercontent.com/reidellawfirm/cloudconvert-nc-app/v1.0.3/screenshots/01-file-actions-menu.png</screenshot>
+    <screenshot small-thumbnail="https://raw.githubusercontent.com/reidellawfirm/cloudconvert-nc-app/v1.0.3/screenshots/02-convert-dialog-small.png">https://raw.githubusercontent.com/reidellawfirm/cloudconvert-nc-app/v1.0.3/screenshots/02-convert-dialog.png</screenshot>
+    <screenshot small-thumbnail="https://raw.githubusercontent.com/reidellawfirm/cloudconvert-nc-app/v1.0.3/screenshots/03-select-output-format-small.png">https://raw.githubusercontent.com/reidellawfirm/cloudconvert-nc-app/v1.0.3/screenshots/03-select-output-format.png</screenshot>
+    <screenshot small-thumbnail="https://raw.githubusercontent.com/reidellawfirm/cloudconvert-nc-app/v1.0.3/screenshots/04-conversion-in-progress-small.png">https://raw.githubusercontent.com/reidellawfirm/cloudconvert-nc-app/v1.0.3/screenshots/04-conversion-in-progress.png</screenshot>
     <dependencies>
         <nextcloud min-version="34" max-version="35"/>
     </dependencies>
